@@ -37,4 +37,88 @@ line-height: 25px;
 .frist-banner-img{ 
     width: 400px;
     height: 550px;
+} 
+/* banner section has been finished */ 
+
+/* main section featured part started */ 
+.featured-container{ 
+    background-color: #fff6f6;
+    text-align: center;
+    padding-top: 100px;
+    height: 100vh;
+    width: 70%; 
+    margin: 0 auto;
+} 
+.featured-title{ 
+    font-size:25px;
 }
+.featured-description{ 
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 11px;
+font-weight: 300;
+    width: 270px; 
+    margin: 0 auto;
+}  
+.featured-imges{ 
+    display: flex; 
+    align-items: center; 
+    gap: 30px;
+    justify-content: center;
+} 
+.featured-round-img1{ 
+    border: none; 
+    text-align: center;
+    background-color: #dabcda;
+    border-top-left-radius:  100px; 
+    border-top-right-radius: 100px;
+    margin-top: 35px;
+} 
+.featured-round-img2{ 
+    border: none; 
+    text-align: center;
+    background-color: #bee0eb;
+    border-top-left-radius:  100px; 
+    border-top-right-radius: 100px;
+    margin-top: 35px;
+    
+} 
+.featured-round-img3{ 
+    border: none; 
+    text-align: center;
+    background-color: #a8d4bc;
+    border-top-left-radius:  100px; 
+    border-top-right-radius: 100px;
+    margin-top: 35px;
+}
+.round-img{ 
+    position: relative;
+    height: 280px;
+    width: 200px; 
+    top: 32px;
+    padding: 30px 37px;
+
+} 
+.featured-anchore { 
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -160px;
+} 
+.featured-anchore a{ 
+    color: black;
+    font-weight: bold;
+} 
+.featured-round-img1:hover{ 
+    background-color: rgb(201, 194, 187);
+} 
+.featured-round-img2:hover{ 
+    background-color: beige;
+} 
+.featured-round-img3:hover{ 
+    background-color: rgb(159, 182, 203);
+} 
+/* featured section has been finished */ 
+
+/*  support section has been started */ 
+
