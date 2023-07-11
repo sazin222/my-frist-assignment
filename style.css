@@ -191,3 +191,38 @@ font-weight: 200;
 /* hot deal section finished */ 
 
 /* instagram section started  */
+.instagram-container{ 
+    height: 600px; 
+    width: 70%;
+    text-align: center; 
+    margin: 0 auto;
+    text-align: center; 
+    background-color: white; 
+    position: relative;
+    top:250px
+} 
+.instagram-content-img{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    gap: 30px;
+} 
+.instagram-img-box{ 
+    width: 200px; 
+    margin-top: 25px;
+
+} 
+.instagram-title{ 
+    padding: 10px 5px;
+    font-size: 30px;
+} 
+.instagram-description{ 
+    padding: 10px; 
+    width: 300px; 
+    text-align: center; 
+    margin: 0 auto;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+    font-weight: 300;
+} 
+/* instagram section finished */
