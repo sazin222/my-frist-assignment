@@ -36,8 +36,12 @@
 }
 .frist-banner-img{ 
     width: 400px;
-    height: 550px;
+    height: 550px; 
+
 } 
+.banner-img{ 
+    margin-top: 60px;
+}
 /* banner section has been finished */ 
 
 /* main section featured part started */ 
