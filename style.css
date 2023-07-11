@@ -42,7 +42,7 @@ line-height: 25px;
 
 /* main section featured part started */ 
 .featured-container{ 
-    background-color: #fff6f6;
+    background-color: #fffbfb;
     text-align: center;
     padding-top: 100px;
     height: 100vh;
@@ -121,4 +121,73 @@ font-weight: 300;
 /* featured section has been finished */ 
 
 /*  support section has been started */ 
+.support-container{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 70%; 
+    height: 180px;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+} 
+.support-content{ 
+    text-align: center;
+    padding: 25px 10px;
 
+}
+.support-img{ 
+    width: 50px;
+}
+/* support section has been finished */
+
+/* hot deal section has been started */
+.hot-deal-container{ 
+    width: 70%; 
+    height: 550px;
+    margin: 0 auto; 
+    position: relative;
+    top: 150px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background: rgba(229, 84, 115, 0.05);
+} 
+.hot-deal-content{ 
+    text-align: center; 
+    width: 400px;
+}
+.hot-deal-title{ 
+    color: #272727;
+font-family: Lato;
+font-size: 30px;
+font-weight: 700;
+} 
+.hot-deal-title   span{ 
+    color: orangered;
+}
+.hot-deal-description{ 
+    color: rgba(39, 39, 39, 0.60);
+font-size: 14px;
+padding: 15px 5px;
+font-style: normal;
+font-weight: 200;
+} 
+.hot-deal-button{ 
+    background-color: orangered; 
+    color: white;
+    border: none;
+    padding: 10px 17px; 
+    border-radius: 3px;
+
+} 
+.hot-deal-img{ 
+    width: 200px;
+    height: 300px;
+} 
+/* hot deal section finished */ 
+
+/* instagram section started  */
