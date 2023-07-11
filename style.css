@@ -13,16 +13,16 @@
 } 
 .banner-content-title{ 
     color: #272727;
-font-size: 45px;
-font-weight: 900;
+    font-size: 45px;
+    font-weight: 900;
 } 
 .banner-content-description{ 
     padding: 10px 0px;
     color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 16px;
-font-weight: 300;
-line-height: 25px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
 } 
 .banner-btn{ 
     background-color: orangered;
@@ -54,10 +54,10 @@ line-height: 25px;
 }
 .featured-description{ 
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 11px;
-font-weight: 300;
+    text-align: center;
+    font-family: Lato;
+    font-size: 11px;
+    font-weight: 300;
     width: 270px; 
     margin: 0 auto;
 }  
@@ -162,19 +162,19 @@ font-weight: 300;
 }
 .hot-deal-title{ 
     color: #272727;
-font-family: Lato;
-font-size: 30px;
-font-weight: 700;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 700;
 } 
 .hot-deal-title   span{ 
     color: orangered;
 }
 .hot-deal-description{ 
     color: rgba(39, 39, 39, 0.60);
-font-size: 14px;
-padding: 15px 5px;
-font-style: normal;
-font-weight: 200;
+    font-size: 14px;
+    padding: 15px 5px;
+    font-style: normal;
+    font-weight: 200;
 } 
 .hot-deal-button{ 
     background-color: orangered; 
@@ -226,3 +226,90 @@ font-weight: 200;
     font-weight: 300;
 } 
 /* instagram section finished */
+/* latest section has been started */ 
+.coupon-section{ 
+    width: 70%;
+    height: 300px; 
+    background-image: url('./assets/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size:cover ; 
+    background-position: top;
+    margin: 0 auto; 
+    position: relative;
+    top: 150px;
+}  
+.coupon-title{ 
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700; 
+    padding: 10px;
+} 
+.coupon-description{ 
+    text-align: center; 
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+
+}
+.coupon-content{ 
+    padding: 100px 0px;
+} 
+.input-part{ 
+ padding: 0px 200px; 
+ position: relative;
+ bottom: 90px;
+} 
+.coupon-input{ 
+    width: 360px;
+    padding: 12px 15px; 
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+}
+.coupon-button{ 
+    padding: 10px 15px;
+    background-color: orangered; 
+    color: white;
+    border: none;
+} 
+/* latest coupon section has been finished */
+
+/* footer section has been started */
+
+.footer-container{ 
+    height: 300px;
+    background: #181717;
+    color: white; 
+    text-align: center;
+    margin-top: 230px; 
+    padding-top: 150px;
+} 
+.footer-title{ 
+  font-size: 40px;
+  font-weight: 700;
+}
+.footer-span{ 
+    color: orange;
+} 
+.footer-description{ 
+    width: 400px;
+    margin: 0 auto;
+    color: rgba(235, 229, 229, 0.9);
+    padding: 10px 10px;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+} 
+.footer-bottom{ 
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+} 
+/*  footer section has been finished */
