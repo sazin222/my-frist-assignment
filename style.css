@@ -55,7 +55,6 @@
 .featured-description{ 
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 11px;
     font-weight: 300;
     width: 270px; 
@@ -140,9 +139,43 @@
 }
 .support-img{ 
     width: 50px;
-}
+} 
 /* support section has been finished */
-
+/* new arrival section has been started */
+ .new-arrival-container{ 
+    width: 70%;
+    height: 410px;
+    margin: auto;
+    text-align: center; 
+    margin-top: 100px;
+    background-color: #fffeff;
+ } 
+ .new-arrival-title{ 
+    font-size: 30px;
+    font-weight: 500px;
+ } 
+ .new-arrival-description{ 
+    font-size: 13px;
+    padding: 10px 5px;
+ }
+ .new-arrival-span{ 
+    color: orangered;
+ }
+ .new-arrival-content{ 
+    width: 75%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 51px; 
+ }
+ .img{ 
+    width: 280px; 
+    height: 310px;
+    border-radius: 10px; 
+ } 
+ /* new arrival section finished */
 /* hot deal section has been started */
 .hot-deal-container{ 
     width: 70%; 
@@ -234,6 +267,7 @@
     background-repeat: no-repeat;
     background-size:cover ; 
     background-position: top;
+    border-radius: 5px;
     margin: 0 auto; 
     position: relative;
     top: 150px;
